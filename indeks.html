@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="PUBLIC_URL/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>WEB PERTAMA</title>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<header>
+			<h1 class="logo">PRODUKTIF.CO</h1>
+			<nav>
+				<ul>
+					<li><a href="#NEWS">NEWS</a></li>
+					<li><a href="mailto:jundihafizh20@gmail.com">KONTAK</a></li>
+				</ul>
+			</nav>
+			<button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+		</header>
+		<div class="container">
+			<div class="intro">
+				<p class="title">Hello, Jundi Hafizh Here!</p>
+				<p class="description">Technology Influencer From Village.</p>
+				<img src="assets/foto/P1049490.JPG" alt="jundi hafizh foto 1" class="img-foto"/>
+			</div>
+		</div>
+		<div class="parallax">
+			<div class="tentang">
+				<p class="title">Hello, Jundi Hafizh Ganteng Here!</p>
+				<p class="description">Berita Terbaru Disini</p>
+				<div class="mt-10">
+					<button class="btn-cta" onclick="redirWhatsapp()">Mari Kerjasama</button>
+				</div>
+			</div>
+			<div class="container">
+					<div class="card" id="NEWS">
+						<div class="card-item">
+							<img src="assets/foto/DSC_0630-1.JPG" alt="icon 1" class="icon"/>
+							<p class="card-title">MILAD MHU 3.0</p>
+							<p class="card-description">Keseruan Acara Milad MHU 3.0</p>
+						</div>
+						<div class="card-item">
+							<img src="assets/foto/DSC_0930.JPG" alt="icon 2" class="icon"/>
+							<p class="card-title">SEMINAR NASIONAL</p>
+							<p class="card-description">Hadirnya Komisi VIII DPR RI.</p>
+				 		</div>
+						<div class="card-item">
+							<img src="assets/foto/DSC_0617.JPG" alt="icon 3" class="icon"/>
+							<p class="card-title">RANGKAIAN MILAD MHU 3.0</p>
+							<p class="card-description">Pembagian Kejuaraan Lomba Milad 3.0</p>
+						</div>
+					</div>
+			</div>
+		</div>
+		<footer>
+			<p class="title">&copy; Jundi Hafizh Website 2023</p>
+		</footer>
+		<script>
+			function redirInstagram() {
+				window.location.href = "https://instagram.com/jundihafizh20_"
+			}
+			
+			function redirWhatsapp() {
+				window.location.href = "https://wa.me/+6283869200307"
+			}
+		</script>
+	</body>
+</html>
